@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title> Aula 08</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <form action="recebe.html" method="post">
+            <!--Este é um campo de Nome-->
+            <label for="nomecomp"> Nome completo:</label>
+            <input type="text" id="nomecomp" name="nomecompleto" max="50">
+            <br><br>
+            <!--Este é um campo de Senha-->
+            <label for="senha"> Senha: </label>
+            <input type="password" id="senha" name="senha">
+            <br><br>
+            <!--Este é um campo de Idade-->
+            <label for="number"> Idade:</label>
+            <input type="number" id="idade" name="idade" max="50" min="1">
+            <br><br>
+            <!--Este é um campo de E-mail-->
+            <label for="email">  Email:</label>
+            <input type="email" id="email" name="senha">
+            <br><br>
+            <!--Este é um campo de Data nascimento-->
+            <label for="data">  Data nascimento:</label>
+            <input type="data" id="data" name="data">
+            <br><br>
+            <!--Este é um campo de Idade-->
+            <label for="number">  Idade:</label>
+            Idade: <input type="number" id="idade" name="idade">
+            <br><br>
+            <!-- Este é um campo de Feedback-->
+            <label for="areatexto">  Feedback:</label>
+            <textarea rows="4" cols="40" id="areatexto"> </textarea>
+            <labe for="areadeinteresses"> Area de interesses</label>
+            <select id="areadeinteresses">
+                <option value="programacao"> Programação</option>
+                <option value="desing"> Desing </option>
+                <option value="redes">"Redes </option>
+                <option value="suporte"> Suporte </option>
+            </select>
+            <br><br>
+            <input type="button" value="Enviar">
+        </form>
+    </body>
+</html>
